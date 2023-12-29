@@ -136,13 +136,13 @@ function BookForm({
             >
               <select>
                 <option value="">Select Category</option>
-                <option value="mythology">Mythology</option>
-                <option value="fiction">Fiction</option>
-                <option value="non-fiction">Non-Fiction</option>
-                <option value="biography">Biography</option>
-                <option value="poetry">Poetry</option>
-                <option value="drama">Drama</option>
-                <option value="history">History</option>
+                <option value="graphic-novels">Graphic novels</option>
+                <option value="manga">Manga</option>
+                <option value="sunday-comics">Sunday comics</option>
+                <option value="science-fiction">Science fiction</option>
+                <option value="horror">Horror</option>
+                <option value="comic-strips">Comic strips</option>
+                <option value="super-hero">Superhero</option>
               </select>
             </Form.Item>
           </Col>
