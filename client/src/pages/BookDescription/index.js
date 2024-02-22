@@ -29,7 +29,7 @@ function BookDescription() {
 
   useEffect(() => {
     getBook();
-  }, []);
+  });
   return (
     bookData && <div>
       <Row gutter={[16, 16]} align="middle" justify="center">

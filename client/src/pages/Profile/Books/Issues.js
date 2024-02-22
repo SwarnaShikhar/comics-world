@@ -30,7 +30,7 @@ function Issues({ open = false, setOpen, selectedBook, reloadBooks }) {
 
   useEffect(() => {
     getIssues();
-  }, []);
+  });
 
   const onReturnHandler = async (issue) => {
     try {
@@ -178,8 +178,8 @@ function Issues({ open = false, setOpen, selectedBook, reloadBooks }) {
           selectedIssue={selectedIssue}
           open={showIssueForm}
           setOpen={setShowIssueForm}
-          setSelectedBook={() => {}}
-          getData={()=>{
+          setSelectedBook={() => { }}
+          getData={() => {
             getIssues();
             reloadBooks();
           }}

@@ -27,7 +27,7 @@ function IssuedBooks() {
 
   useEffect(() => {
     getIssues();
-  }, []);
+  });
 
   const columns = [
     {

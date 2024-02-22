@@ -32,7 +32,7 @@ function Login() {
     if (token) {
       navigate("/");
     }
-  }, []);
+  });
 
   return (
     <div className="h-screen bg-primary flex items-center justify-center">

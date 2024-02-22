@@ -38,7 +38,7 @@ function ProtectedRoute({ children }) {
     } else {
       validateUserToken();
     }
-  }, []);
+  });
 
   return (
     <div>

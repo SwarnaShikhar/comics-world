@@ -36,7 +36,7 @@ function Books() {
 
   useEffect(() => {
     getBooks();
-  }, []);
+  });
 
   const deleteBook = async (id) => {
     try {

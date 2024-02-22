@@ -30,7 +30,7 @@ function Users({ role }) {
 
   useEffect(() => {
     getUsers();
-  }, []);
+  });
 
   const columns = [
     {
